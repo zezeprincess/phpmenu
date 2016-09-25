@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: Helvetica, sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+
+.active {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 1%;
+	}
+	
+ul {
+	margin: 2% 0 2% 0;
+	padding: 2.5% 0 2% 0;
+	text-align: left;
+	}
+	
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline;
+	font-size: 1.2em;
+	font-weight: 300;
+	}
+
+a {line-height: 14px;
+	margin: 0 1% 0 0; /*space around links*/
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 1%;
+	color: #3de8bb;
+}
+	
+
